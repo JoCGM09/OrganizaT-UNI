@@ -1,0 +1,14 @@
+Eliminar el menor elemento de un arreglo (arreglo pp)
+
+Declarando arreglo promedio de practicas:
+const pp=[5,16,9,10]
+
+Usando función Math.min:
+const min=Math.min(...pp)
+
+Usando funcion findIndex para hallar Index del número menor
+y guardarlo en una constante menorIndex:
+const menorIndex=pp.findIndex((n)=>{if (n===min)return(n)})
+
+Eliminar la menor nota con función splice:
+pp.splice(menorIndex,1)
