@@ -12,3 +12,29 @@ const menorIndex=pp.findIndex((n)=>{if (n===min)return(n)})
 
 Eliminar la menor nota con función splice:
 pp.splice(menorIndex,1)
+
+
+Eliminar dos elementos de un arreglo (arreglo labos)
+
+Declarando arreglo labos:
+const labos=[5,16,9,10,3,5,4,10]
+
+Usando función Math.min para hallar el menor min1:
+const min1=Math.min(...labos)
+
+Usando función findIndex para hallar Index del número y guardarlo en un
+una constante menorIndex1:
+const menorIndex1=labos.findIndex((n)=>{if (n===min1)return(n)})
+
+Eliminar la menor nota con fucnión splice:
+labos.splice(menorIndex1,1)
+
+Usando función Math.min para hallar el menor min2:
+const min2=Math.min(...labos)
+
+Usando función findIndex para hallar Index del número y guardarlo en un
+una constante menorIndex2:
+const menorIndex2=labos.findIndex((n)=>{if (n===min2)return(n)})
+
+Eliminar la menor nota con fucnión splice:
+labos.splice(menorIndex2,1)
