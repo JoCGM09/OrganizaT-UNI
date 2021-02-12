@@ -33,7 +33,6 @@ export default function Signup() {
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Regístrate</h2>
-          {JSON.stringify(currentUser)}
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
