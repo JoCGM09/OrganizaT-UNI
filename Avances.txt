@@ -12,3 +12,9 @@ const menorIndex=pp.findIndex((n)=>{if (n===min)return(n)})
 
 Eliminar la menor nota con función splice:
 pp.splice(menorIndex,1)
+
+
+
+
+
+
